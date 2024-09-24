@@ -3,7 +3,7 @@ import BRC from "../../assets/BRCnail.jpg";
 import BlogApp from "../../assets/BlogApp.jpg";
 import StockApp from "../../assets/StockApp.jpg";
 import MovieApp from "../../assets/movie-app.gif";
-import fitLift from "../../assets/fitlift.png";
+
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
