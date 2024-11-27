@@ -6,11 +6,11 @@
   span {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 1px;
   }
 
   img {
-    width: 20px;
+    width: 30px;
   }
 }
 
@@ -34,7 +34,7 @@ hr {
 @media (width >= 800px) {
   .skillList {
     max-width: fit-content;
-    gap: 30px;
+    gap: 20px;
 
     p {
       font-size: 20px;

@@ -2,20 +2,17 @@ import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/hero.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import twitterLight from '../../assets/twitter-light.svg';
-import twitterDark from '../../assets/twitter-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/Heysem_CIL_Fullstack_Developer_Resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
@@ -25,12 +22,12 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Heysem Cil"
+          alt="Avatar of Heysem Cil"
         />
         <img
           className={styles.colorMode}
           src={themeIcon}
-          alt="Color mode icon"
+          alt="Toggle icon"
           onClick={toggleTheme}
         />
       </div>
@@ -40,7 +37,7 @@ function Hero() {
           <br />
           Cil
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Fullstack Developer</h2>
         <span>
          <a href="https://github.com/heysemcil" target="_blank">
             <img src={githubIcon} alt="Github icon" />
@@ -50,7 +47,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
+          With a passion for developing modern web apps for commercial
           businesses.
         </p>
         <a href={CV} download>

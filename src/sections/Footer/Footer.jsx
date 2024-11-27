@@ -4,8 +4,8 @@ function Footer() {
   return (
     <section id="footer" className={styles.container}>
       <p>
-        &copy; 2024 Heysem Cil. <br />
-        All rights reserved.
+     
+        All rights reserved &copy; 2024 Heysem Cil
       </p>
     </section>
   );

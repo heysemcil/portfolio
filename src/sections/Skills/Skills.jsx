@@ -18,22 +18,20 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="TypeScript" />
         <SkillList src={checkMarkIcon} skill="React" />
-        <SkillList src={checkMarkIcon} skill="Angular" />
-        <SkillList src={checkMarkIcon} skill="Vue.js" />
+        <SkillList src={checkMarkIcon} skill="Next.js" />
+        <SkillList src={checkMarkIcon} skill="Redux" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
         <SkillList src={checkMarkIcon} skill="Material-UI" />
         <SkillList src={checkMarkIcon} skill="Ant Design" />
-        <SkillList src={checkMarkIcon} skill="Redux" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Node.js" />
         <SkillList src={checkMarkIcon} skill="Express.js" />
-        <SkillList src={checkMarkIcon} skill="Python" />
         <SkillList src={checkMarkIcon} skill="Django" />
-        <SkillList src={checkMarkIcon} skill="Flask" />
-        <SkillList src={checkMarkIcon} skill="GraphQL" />
+        <SkillList src={checkMarkIcon} skill="Django Rest" />
+        <SkillList src={checkMarkIcon} skill="Mongoose" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -46,10 +44,6 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Jest" />
         <SkillList src={checkMarkIcon} skill="Cypress" />
-      </div>
-      <hr />
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Next.js" />
       </div>
     </section>
   );
