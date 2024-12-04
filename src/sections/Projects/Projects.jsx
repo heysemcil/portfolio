@@ -1,6 +1,6 @@
 import styles from "./ProjectsStyles.module.css";
 import BRC from "../../assets/BRCnail.jpg";
-import BlogApp from "../../assets/BlogApp.jpg";
+import BlogApp from "../../assets/fireblog.gif";
 import HospitalAppointment from "../../assets/hospitalAppointment.png";
 import NBACards from "../../assets/NBACards.png";
 import StockApp from "../../assets/StockApp.jpg";
