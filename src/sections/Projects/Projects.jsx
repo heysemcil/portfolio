@@ -30,6 +30,20 @@ function Projects() {
         </div>
         <div className={styles.box}>
           <ProjectCard
+            src={BlogApp}
+            link="https://blog-app-five-jet.vercel.app/"
+            h3="Blog App"
+            p=""
+          />
+          <p>-</p>
+          <h3>
+            <a target="_blank" href="https://github.com/heysemcil/blog-app">
+              Githup Repo
+            </a>
+          </h3>
+        </div>
+        <div className={styles.box}>
+          <ProjectCard
             src={MovieApp}
             link="https://my-react-movie-app.vercel.app/"
             h3="Movie App"
@@ -41,20 +55,6 @@ function Projects() {
               target="_blank"
               href="https://github.com/heysemcil/movie-app-react"
             >
-              Githup Repo
-            </a>
-          </h3>
-        </div>
-        <div className={styles.box}>
-          <ProjectCard
-            src={BlogApp}
-            link="https://my-block-app.vercel.app/"
-            h3="Blog App"
-            p=""
-          />
-          <p>-</p>
-          <h3>
-            <a target="_blank" href="https://github.com/heysemcil/blog-app">
               Githup Repo
             </a>
           </h3>
