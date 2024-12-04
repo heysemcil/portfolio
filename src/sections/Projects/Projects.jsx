@@ -17,7 +17,7 @@ function Projects() {
         <div className={styles.box}>
           <ProjectCard
             src={StockApp}
-            link="https://stock-app-puce-five.vercel.app/"
+            link="https://stock-5yph086ga-heysems-projects.vercel.app/"
             h3="Stock Management App"
             p=""
           />
